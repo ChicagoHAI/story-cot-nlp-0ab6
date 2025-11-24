@@ -1,0 +1,68 @@
+{
+  "gsm8k_story_vs_cot": {
+    "mean_diff": -0.1,
+    "ci95": [
+      -0.4,
+      0.2
+    ]
+  },
+  "gsm8k_mcnemar": {
+    "b01": 2,
+    "b10": 1,
+    "stat": 0.0,
+    "p_value": 1.0
+  },
+  "gsm8k_accuracy": {
+    "cot": 0.3,
+    "direct": 0.2,
+    "story": 0.2,
+    "story_self_consistency_k3": 0.2
+  },
+  "gsm8k_token_usage_mean": {
+    "usage_prompt_tokens": {
+      "cot": 0.0,
+      "direct": 0.0,
+      "story": 0.0,
+      "story_self_consistency_k3": 0.0
+    },
+    "usage_completion_tokens": {
+      "cot": 0.0,
+      "direct": 0.0,
+      "story": 0.0,
+      "story_self_consistency_k3": 0.0
+    }
+  },
+  "aqua_story_vs_cot": {
+    "mean_diff": -0.2,
+    "ci95": [
+      -0.6,
+      0.2
+    ]
+  },
+  "aqua_mcnemar": {
+    "b01": 3,
+    "b10": 1,
+    "stat": 0.25,
+    "p_value": 0.6170750774519739
+  },
+  "aqua_accuracy": {
+    "cot": 0.3,
+    "direct": 0.2,
+    "story_self_consistency_k3": 0.2,
+    "story": 0.1
+  },
+  "aqua_token_usage_mean": {
+    "usage_prompt_tokens": {
+      "cot": 0.0,
+      "direct": 0.0,
+      "story": 0.0,
+      "story_self_consistency_k3": 0.0
+    },
+    "usage_completion_tokens": {
+      "cot": 0.0,
+      "direct": 0.0,
+      "story": 0.0,
+      "story_self_consistency_k3": 0.0
+    }
+  }
+}

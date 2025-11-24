@@ -1,0 +1,50 @@
+{
+  "gsm8k::direct": {
+    "n": 10,
+    "accuracy": 0.2,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "gsm8k::cot": {
+    "n": 10,
+    "accuracy": 0.3,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "gsm8k::story": {
+    "n": 10,
+    "accuracy": 0.2,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "gsm8k::story_self_consistency_k3": {
+    "n": 10,
+    "accuracy": 0.2,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "aqua::direct": {
+    "n": 10,
+    "accuracy": 0.2,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "aqua::cot": {
+    "n": 10,
+    "accuracy": 0.3,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "aqua::story": {
+    "n": 10,
+    "accuracy": 0.1,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  },
+  "aqua::story_self_consistency_k3": {
+    "n": 10,
+    "accuracy": 0.2,
+    "prompt_tokens_mean": 0,
+    "completion_tokens_mean": 0
+  }
+}

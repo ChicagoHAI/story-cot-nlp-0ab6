@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/code"
+      },
+      "log_file": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/logs/resource_finder_codex.log",
+      "elapsed_time": 208.92233991622925
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1972.6582372188568,
+      "log_file": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6/logs/execution_codex.log"
+    }
+  },
+  "work_dir": "/data/hypogenicai/workspaces/story-cot-nlp-0ab6"
+}
